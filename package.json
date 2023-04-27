@@ -1,0 +1,19 @@
+{
+  "name": "page-template-generator",
+  "version": "1.0.0",
+  "description": "\"application for developers, which helps to make ui&structure\"",
+  "main": "index.ts",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/musoline/page-template-generator.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/musoline/page-template-generator/issues"
+  },
+  "homepage": "https://github.com/musoline/page-template-generator#readme"
+}
