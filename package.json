@@ -4,6 +4,8 @@
   "description": "\"application for developers, which helps to make ui&structure\"",
   "main": "index.ts",
   "scripts": {
+    "serve": "webpack-dev-server",
+    "build": "webpack",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
@@ -15,5 +17,13 @@
   "bugs": {
     "url": "https://github.com/musoline/page-template-generator/issues"
   },
-  "homepage": "https://github.com/musoline/page-template-generator#readme"
+  "homepage": "https://github.com/musoline/page-template-generator#readme",
+  "devDependencies": {
+    "html-webpack-plugin": "^5.5.1",
+    "ts-loader": "^9.4.2",
+    "typescript": "^5.0.4",
+    "webpack": "^5.82.0",
+    "webpack-cli": "^5.1.0",
+    "webpack-dev-server": "^4.15.0"
+  }
 }
